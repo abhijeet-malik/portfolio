@@ -57,7 +57,6 @@ export const ProjectData = [
     tags: ["HTML5", "CSS3", "JavaScript", "Node.Js", "Responsive Web Design"],
     demo: "https://to-do-list-lilac-iota-83.vercel.app/",
     github: "https://github.com/abhijeet-malik/To-Do-List",
-    image:
-      "https://private-user-images.githubusercontent.com/181703567/457636366-89d704ba-cc0c-4f24-9c1d-81bf5a761e99.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTA1ODU2NzIsIm5iZiI6MTc1MDU4NTM3MiwicGF0aCI6Ii8xODE3MDM1NjcvNDU3NjM2MzY2LTg5ZDcwNGJhLWNjMGMtNGYyNC05YzFkLTgxYmY1YTc2MWU5OS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNjIyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDYyMlQwOTQyNTJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04M2YyNGM2MTNiYTQzYTI3ZmQ1OGMyNTkwYjhlNzA0ODk3MThlMmE5Y2UzNTQxZTE2Y2M3MDBmNDY2NzZhYzhhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.pyIuZt0zymFSzG1mugCD6LCTKwyo8e2fzvXTqizNLwo",
+    image: "https://raw.githubusercontent.com/abhijeet-malik/To-Do-List/main/todolist.png",
   },
 ];
