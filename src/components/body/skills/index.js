@@ -8,7 +8,7 @@ function Skills() {
     return (
         <div>
             <Separator />
-            <label className="section-title">Skills</label>
+            <label className="section-title"><strong>Technical Skills</strong></label>
             <div className="skills-container">
                 {data.map((item)=>{
                     return (

@@ -7,14 +7,14 @@ function Contact() {
     return (
         <div className="contact">
             <Separator />
-            <label className="section-title">Contact</label>
+            <label className="section-title"><strong>Contact</strong></label>
             <div className="contact-container">
                 <div className="contact-left">
                     <p>Feel free to reach out on any platform !</p>
                     <SocialContact />
                 </div>
               <div className="download">
-              <a download href={require('../../../images/Soft_Resume_Abhi.pdf')}>
+              <a download href={require('../../../images/Abhi-Web-Resume.pdf')}>
                       <i class="fi-rr-download"></i>
                       Download Resume 
                   </a>

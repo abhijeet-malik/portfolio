@@ -5,10 +5,12 @@ function Mobile({ isOpen, setIsOpen }) {
   const [theme, setTheme] = useState("light");
 
   const toggleTheme = () => {
-    theme === "light" ? setTheme("dark") : setTheme("light");
+    setTheme((prev) => (prev === "light" ? "dark" : "light"));
   };
 
-  useEffect(() => (document.body.className = theme));
+  useEffect(() => {
+    document.body.setAttribute("data-theme", theme);
+  }, [theme]);
 
   return (
     <div className="mobile">
@@ -28,7 +30,7 @@ function Mobile({ isOpen, setIsOpen }) {
         </div>
         <div className="mobile-option">
           <a href="#work">
-            <i class="fi-rr-briefcase option-icon"></i>Work
+            <i class="fi-rr-briefcase option-icon"></i>Work/Experience
           </a>
         </div>
         <div className="mobile-option">

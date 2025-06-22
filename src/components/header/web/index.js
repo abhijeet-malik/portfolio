@@ -5,11 +5,11 @@ function Web() {
   const [theme, setTheme] = useState("light");
 
   const toggleTheme = () => {
-    theme === "light" ? setTheme("dark") : setTheme("light");
+    setTheme((prev) => (prev === "light" ? "dark" : "light"));
   };
 
   useEffect(() => {
-    document.body.className = theme;
+    document.body.setAttribute("data-theme", theme);
   }, [theme]);
 
   return (
@@ -26,7 +26,7 @@ function Web() {
       </div>
       <div className="web-option">
         <a href="#work">
-          <i class="fi-rr-briefcase option-icon"></i>Work
+          <i class="fi-rr-briefcase option-icon"></i>Work/Experience
         </a>
       </div>
       <div className="web-option">
