@@ -47,7 +47,7 @@ export const ProjectData = [
     demo: "https://segwise-assignment-sigma.vercel.app/",
     github: "https://segwise-assignment-sigma.vercel.app/",
     image:
-      "https://private-user-images.githubusercontent.com/181703567/457640475-62c59a15-4330-4b33-a38b-69bb05ec4282.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTA1ODk4MTcsIm5iZiI6MTc1MDU4OTUxNywicGF0aCI6Ii8xODE3MDM1NjcvNDU3NjQwNDc1LTYyYzU5YTE1LTQzMzAtNGIzMy1hMzhiLTY5YmIwNWVjNDI4Mi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNjIyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDYyMlQxMDUxNTdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1mMjAzZWE1ZWQzOWY0OGNmMjMyNzZkMzlmZmI3NWRmZjRjM2FhNGZmNTc2MmY4YmQ3ZmU0ZTNkOTQwMmZmZjE1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9._EZpNKIeBnf2qSYb8q3c1Ii4HNYItPOFPaynAQFed04",
+      "https://github.com/user-attachments/assets/62c59a15-4330-4b33-a38b-69bb05ec4282",
   },
   {
     id: 4,
