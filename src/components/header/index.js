@@ -7,7 +7,7 @@ function Header() {
     return (
         <div className="header">
             <div className="logo">
-                AM
+                ABHIJEET MALIK
             </div>
             <div className="menu">
                <div className="web-menu">

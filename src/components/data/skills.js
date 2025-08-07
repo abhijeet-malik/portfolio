@@ -12,7 +12,7 @@ export const SkillsData = [
       },
       {
         name: "MATLAB",
-        icon: <i className="devicon-matlab-plain colored"></i>, // Optional: may require custom SVG
+        icon: <i className="devicon-matlab-plain colored"></i>, 
       },
     ],
   },
@@ -50,7 +50,7 @@ export const SkillsData = [
       },
       {
         name: "Responsive Web Design",
-        icon: <i className="fas fa-mobile-alt"></i>, // Font Awesome
+        icon: <i className="fas fa-mobile-alt"></i>, 
       },
     ],
   },
@@ -72,7 +72,7 @@ export const SkillsData = [
       },
       {
         name: "RESTful API",
-        icon: <i className="fas fa-plug"></i>, // Font Awesome
+        icon: <i className="fas fa-plug"></i>, 
       },
       {
         name: "PostgreSQL",
@@ -106,19 +106,19 @@ export const SkillsData = [
       },
       {
         name: "Vercel",
-        icon: <i className="fas fa-cloud-upload-alt"></i>, // Font Awesome
+        icon: <i className="fas fa-cloud-upload-alt"></i>, 
       },
       {
         name: "MS Office",
-        icon: <i className="fas fa-file-word"></i>, // Font Awesome
+        icon: <i className="fas fa-file-word"></i>, 
       },
       {
         name: "SAP S/4 HANA",
-        icon: <i className="fas fa-network-wired"></i>, // Font Awesome
+        icon: <i className="fas fa-network-wired"></i>, 
       },
       {
         name: "SAP Fiori",
-        icon: <i className="fas fa-layer-group"></i>, // Font Awesome
+        icon: <i className="fas fa-layer-group"></i>, 
       },
     ],
   },

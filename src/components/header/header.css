@@ -1,49 +1,49 @@
 .header {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  position: relative;
+  align-items: center;
+  border-bottom: 4px solid white;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 12px 12px;
+}
+
+.logo {
+  font-size: 36px;
+  font-weight: 900;
+  color: rgb(0, 119, 255);
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.web-menu {
+  display: flex;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 720px) {
+  .mobile-menu {
     display: flex;
-    justify-content: space-between;
-    flex: 1;
-    padding: 12px;
-    position: relative;
-    align-items: center;
-    border-bottom: 4px solid white;
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 0 0 12px 12px;
-}
+  }
 
-.menu{
-
-    display:flex;
-    flex: 1;
-    justify-content: flex-end;
-}
-
-.menu-icon{
-    font-size: 24px;
-}
-
-.mobile-menu{
+  .web-menu {
     display: none;
-}
+  }
 
-.web-menu{
-    display: flex;
-}
-
-.logo{
-    display: flex;
-    font-size: 36px;
-    color: rgb(0, 119, 255);
-    font-weight: 900;
-}
-
-@media only screen and (max-width:720px){
-    .mobile-menu{
-        display: flex;
-    }
-    .web-menu{
-        display: none;
-    }
-    .logo{
-        font-size: 24px;
-    }
+  .logo {
+    font-size: 24px;
+  }
 }
